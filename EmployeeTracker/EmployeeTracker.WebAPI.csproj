@@ -213,7 +213,6 @@
     </Compile>
     <Compile Include="Models\AccountBindingModels.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
-    <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Providers\ApplicationOAuthProvider.cs" />
     <Compile Include="Results\ChallengeResult.cs" />
@@ -306,6 +305,20 @@
     <None Include="packages.config" />
     <Content Include="Scripts\jquery-3.4.1.slim.min.map" />
     <Content Include="Scripts\jquery-3.4.1.min.map" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\EmployeeTracker.Data\EmployeeTracker.Data.csproj">
+      <Project>{42d57a17-005b-486c-a7b7-9b93a8c29b1a}</Project>
+      <Name>EmployeeTracker.Data</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\EmployeeTracker.Models\EmployeeTracker.Models.csproj">
+      <Project>{205c2cf5-567d-4ba3-9ab7-46028c27df13}</Project>
+      <Name>EmployeeTracker.Models</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\EmployeeTracker.Services\EmployeeTracker.Services.csproj">
+      <Project>{97e70d79-e543-4908-bfdf-059539d5df4e}</Project>
+      <Name>EmployeeTracker.Services</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

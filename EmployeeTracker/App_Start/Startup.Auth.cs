@@ -10,6 +10,7 @@ using Microsoft.Owin.Security.OAuth;
 using Owin;
 using EmployeeTracker.Providers;
 using EmployeeTracker.Models;
+using EmployeeTracker.Data;
 
 namespace EmployeeTracker
 {
