@@ -2,9 +2,25 @@
 This is a ASP.NET Web API for an Employee Management System. This uses C#, .NET Framework, Entity Framework and MS-SQL  for the back end and Swagger UI for the front-end.
 
 # Running This Application
-To run this application, you have to clone this to your local machine. 
+To run this application: <br/><br/> Step 1: you have to clone this to your local machine. 
 <br/>
 <img src="/EmployeeTrackerSccreenshotSeven.png"/>
+<br/>
+<br/>
+Step 2: After you have successfully cloned this application, right click on EmployeeTracker.WebAPI and click on properties.
+<br/>
+<br/>
+Step 3: Click web, there you will see an option for start url, click that option.
+<br/>
+<br/>
+Step 4: After you clicked that add the <localhost:port>/swagger/ui/index. You can also just add `/swagger` to the url instead of this when you run this application.  
+<br/>
+
+Step 5: After that, click show all files and add bin, roslyn and packages to project. 
+<br/>
+<br/>
+Now, you can successfully run the application. 
+
 
 # How To Create Account
 Creating an Account : To create an account, the user must use the `api/Account/Register` endpoint. 
