@@ -28,16 +28,16 @@ namespace EmployeeTracker.Data
         public string WorkEmail { get; set; }
         public DateTimeOffset? LastReview { get; set; }
         public DateTimeOffset? NextReview { get; set; }
-        public double VacationDaysAccruedLifetime { get; set; }
-        public double VacationDaysUsedLifetime { get; set; }
+        public double VacationDaysAccruedTotal { get; set; }
+        public double VacationDaysUsedTotal { get; set; }
         public double VacationDaysAccruedForPeriod { get; set; }
         public double VacationDaysUsedForPeriod { get; set; }
-        public double PersonalDaysAccruedLifetime { get; set; }
-        public double PersonalDaysUsedLifetime { get; set; }
+        public double PersonalDaysAccruedTotal { get; set; }
+        public double PersonalDaysUsedTotal { get; set; }
         public double PersonalDaysAccruedForPeriod { get; set; }
         public double PersonalDaysUsedForPeriod { get; set; }
-        public double SickDaysAccruedLifetime { get; set; }
-        public double SickDaysUsedLifetime { get; set; }
+        public double SickDaysAccruedTotal { get; set; }
+        public double SickDaysUsedTotal { get; set; }
         public double SickDaysAccruedForPeriod { get; set; }
         public double SickDaysUsedForPeriod { get; set; }
     }

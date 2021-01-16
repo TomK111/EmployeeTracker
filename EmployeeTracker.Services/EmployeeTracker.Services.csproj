@@ -65,5 +65,15 @@
     <None Include="App.config" />
     <None Include="packages.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\EmployeeTracker.Data\EmployeeTracker.Data.csproj">
+      <Project>{42d57a17-005b-486c-a7b7-9b93a8c29b1a}</Project>
+      <Name>EmployeeTracker.Data</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\EmployeeTracker.Models\EmployeeTracker.Models.csproj">
+      <Project>{205c2cf5-567d-4ba3-9ab7-46028c27df13}</Project>
+      <Name>EmployeeTracker.Models</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

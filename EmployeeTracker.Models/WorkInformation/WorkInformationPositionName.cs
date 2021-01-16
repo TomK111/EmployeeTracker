@@ -4,9 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace EmployeeTracker.Models.WorkInformation
+namespace EmployeeTracker.Models
 {
-    class WorkInformationPositionName
+    public class WorkInformationPositionName
     {
+        public string PositionTitle { get; set; }
+        public bool IsSupervisor { get; set; }
+        public bool IsDirector { get; set; }
+        public bool IsExecutive { get; set; }
     }
 }

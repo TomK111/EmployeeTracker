@@ -4,9 +4,16 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace EmployeeTracker.Models.Position
+namespace EmployeeTracker.Models
 {
-    class PositionListItem
+    public class PositionListItem
     {
+        public int PositionId { get; set; }
+        public string PositionTitle { get; set; }
+        public int DepartmentId { get; set; }
+        public string DepartmentName { get; set; }
+        public bool IsSupervisor { get; set; }
+        public bool IsDirector { get; set; }
+        public bool IsExecutive { get; set; }
     }
 }

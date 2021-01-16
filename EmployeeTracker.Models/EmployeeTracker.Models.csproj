@@ -81,6 +81,11 @@
     <None Include="App.config" />
     <None Include="packages.config" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="..\EmployeeTracker.Data\EmployeeTracker.Data.csproj">
+      <Project>{42d57a17-005b-486c-a7b7-9b93a8c29b1a}</Project>
+      <Name>EmployeeTracker.Data</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

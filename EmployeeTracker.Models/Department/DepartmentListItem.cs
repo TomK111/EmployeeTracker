@@ -4,9 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace EmployeeTracker.Models.Department
+namespace EmployeeTracker.Models
 {
-    class DepartmentListItem
+    public class DepartmentListItem
     {
+
+        public int DepartmentId { get; set; }
+        public string DepartmentName { get; set; }
+        public int EmployeeCount { get; set; }
     }
 }

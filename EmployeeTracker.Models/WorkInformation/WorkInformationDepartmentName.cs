@@ -4,9 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace EmployeeTracker.Models.WorkInformation
+namespace EmployeeTracker.Models
 {
-    class WorkInformationDepartmentName
+    public class WorkInformationDepartmentName
     {
+        public string DepartmentName { get; set; }
     }
 }

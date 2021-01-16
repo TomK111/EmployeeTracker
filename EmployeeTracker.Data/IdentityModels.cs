@@ -35,7 +35,7 @@ namespace EmployeeTracker.Data
 
         public DbSet<Employee> EmployeeDbSet { get; set; }
         public DbSet<Contact> ContactDbSet { get; set; }
-        public DbSet<WorkInformation> WorkInfoDbSet { get; set; }
+        public DbSet<WorkInformation> WorkInformationDbSet { get; set; }
         public DbSet<Department> DepartmentDbSet { get; set; }
         public DbSet<Position> PositionDbSet { get; set; }
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
