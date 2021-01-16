@@ -21,9 +21,6 @@ Do not use quotation marks for your token when you place it in authorization and
 
 After you successfully create an account and token, you can start using the endpoints provided in Swagger. 
 
-<img src="/EmployeeTrackerScreenshotOne.png" height="300px"/>
-<img src="/EmployeeTrackerScreenshotTwo.png" height="300px"/>
-<img src="/EmployeeTrackerScreenshotThree.png" height="300px"/>
 <img src="/EmployeeTrackerScreenshotFour.png" height="300px"/>
-<img src="/EmployeeTrackerScreenshotFive.png" height="300px"/>
+
 <img src="/EmployeeTrackerScreenshotSix.png" height="280px"/>
