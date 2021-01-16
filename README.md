@@ -1,4 +1,4 @@
-# EmployeeManagementSystem
+# EmployeeTracker
 This is a ASP.NET Web API for an Employee Management System. This uses C#, .NET Framework, Entity Framework and MS-SQL  for the back end and Swagger UI for the front-end.
 
 # How To Create Account
