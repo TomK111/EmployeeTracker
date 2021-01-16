@@ -3,7 +3,8 @@ This is a ASP.NET Web API for an Employee Management System. This uses C#, .NET 
 
 # Running This Application
 To run this application, you have to clone this to your local machine. 
-<img src="/EmployeeTrackerSccreenShotseven.png"/>
+<br/>
+<img src="/EmployeeTrackerSccreenshotSeven.png"/>
 
 # How To Create Account
 Creating an Account : To create an account, the user must use the `api/Account/Register` endpoint. 
