@@ -5,7 +5,7 @@ This is a ASP.NET Web API for an Employee Management System. This uses C#, .NET 
 Creating an Account : To create an account, the user must use the `api/Account/Register` endpoint. 
 <br/>
 <br/>
-Create your Token : To create your token after successfully registering for an account, you must use the `api/token` endpoint. 
+Create your Token : To create your token after successfully registering for an account, you must use the <span style="color : blue">`api/token`</span> endpoint. 
 <br>
 <br/>
 `grant-type: password`<br/><br/>
