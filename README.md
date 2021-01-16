@@ -15,10 +15,19 @@ Step 3: Click web, there you will see an option for start url, click that option
 <br/>
 Step 4: After you clicked that add the <localhost:port>/swagger/ui/index. You can also just add `/swagger` to the url instead of this when you run this application.  
 <br/>
+<img src="./images/EmployeeTrackerScreenshotEight.png" height="300px"/>
+<br/>
+<br/>
 Step 5: After that, make sure bin, roslyn and packages are in the project. You can check this with by clicking `show all files`. You should not run into this issue if you clone it. However, if you do, this is  how you resolve that issue. 
 <br/>
 <br/>
+<img src="./images/ScreenshotEmployeeTrackerEight.png"/>
+<br/>
+<br/>
 Now, you can successfully run the application. 
+<br/>
+<br/>
+<img src="./images/ScreenshotEmployeeTrackerNine.png"/>
 
 
 # How To Create Account
