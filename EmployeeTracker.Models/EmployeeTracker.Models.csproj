@@ -54,12 +54,33 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.cs" />
+    <Compile Include="Contact\ContactCreate.cs" />
+    <Compile Include="Contact\ContactDetail.cs" />
+    <Compile Include="Contact\ContactListItem.cs" />
+    <Compile Include="Department\DepartmentCreate.cs" />
+    <Compile Include="Department\DepartmentDetail.cs" />
+    <Compile Include="Department\DepartmentListItem.cs" />
+    <Compile Include="Employee\EmployeeArchive.cs" />
+    <Compile Include="Employee\EmployeeCreate.cs" />
+    <Compile Include="Employee\EmployeeDetail.cs" />
+    <Compile Include="Employee\EmployeeListItem.cs" />
+    <Compile Include="Position\PositionCreate.cs" />
+    <Compile Include="Position\PositionDetail.cs" />
+    <Compile Include="Position\PositionListItem.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="WorkInformation\GetAllLeadership.cs" />
+    <Compile Include="WorkInformation\GetWorkInformationByActive.cs" />
+    <Compile Include="WorkInformation\WorkInformationCreate.cs" />
+    <Compile Include="WorkInformation\WorkInformationDepartmentName.cs" />
+    <Compile Include="WorkInformation\WorkInformationDetail.cs" />
+    <Compile Include="WorkInformation\WorkInformationEdit.cs" />
+    <Compile Include="WorkInformation\WorkInformationListItem.cs" />
+    <Compile Include="WorkInformation\WorkInformationPositionName.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

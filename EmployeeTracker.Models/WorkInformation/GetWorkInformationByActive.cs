@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace EmployeeTracker.Services
+namespace EmployeeTracker.Models.WorkInformation
 {
-    public class Class1
+    class GetWorkInformationByActive
     {
     }
 }
