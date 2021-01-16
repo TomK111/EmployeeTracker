@@ -42,7 +42,7 @@ namespace EmployeeTracker.Services
                 return query.ToArray();
             }
         }
-        public DepartmentDetail GetDeptById(int id)
+        public DepartmentDetail GetDepartmentById(int id)
         {
             using (var ctx = new ApplicationDbContext())
             {
@@ -79,7 +79,7 @@ namespace EmployeeTracker.Services
             {
                 var query =
                     ctx
-                    .WorkInfoDbSet
+                    .WorkInformationDbSet
                     .Where(e => e.PositionHeld.DepartmentId == departmentId)
                     .Select(
                         e =>
