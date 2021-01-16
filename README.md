@@ -4,7 +4,7 @@ This is a ASP.NET Web API for an Employee Management System. This uses C#, .NET 
 # Running This Application
 To run this application: <br/><br/> Step 1: you have to clone this to your local machine. 
 <br/>
-<img src="/EmployeeTrackerSccreenshotSeven.png"/>
+<img src="./images/EmployeeTrackerSccreenshotSeven.png"/>
 <br/>
 <br/>
 Step 2: After you have successfully cloned this application, right click on EmployeeTracker.WebAPI and click on properties.
@@ -41,6 +41,6 @@ Do not use quotation marks for your token when you place it in authorization and
 
 After you successfully create an account and token, you can start using the endpoints provided in Swagger. 
 
-<img src="/EmployeeTrackerScreenshotFour.png" height="300px"/>
+<img src="./images/EmployeeTrackerScreenshotFour.png" height="300px"/>
 
-<img src="/EmployeeTrackerScreenshotSix.png" height="280px"/>
+<img src="./images/EmployeeTrackerScreenshotSix.png" height="280px"/>
