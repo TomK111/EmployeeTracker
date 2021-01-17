@@ -1,13 +1,13 @@
-# EmployeeTracker
+# `EmployeeTracker`
 This is a ASP.NET Web API for an Employee Management System. This uses C#, .NET Framework, Entity Framework and MS-SQL  for the back end and Swagger UI for the front-end.
 
-# Running This Application
+# `Running This Application`
 To run this application: <br/><br/> Step 1: you have to clone this to your local machine. 
 <br/>
 <img src="./images/EmployeeTrackerSccreenshotSeven.png"/>
 <br/>
 <br/>
-Step 2: After you have successfully cloned this application, right click on EmployeeTracker.WebAPI and click on properties.
+Step 2: After you have successfully cloned this application, right click on EmployeeTracker.WebAPI and click on `properties`.
 <br/>
 <br/>
 Step 3: Click web, there you will see an option for start url, click that option.
@@ -30,7 +30,7 @@ Now, you can successfully run the application.
 <img src="./images/ScreenshotEmployeeTrackerNine.png"/>
 
 
-# How To Create Account
+# `How To Create Account`
 Creating an Account : To create an account, the user must use the `api/Account/Register` endpoint. 
 <br/>
 <br/>
