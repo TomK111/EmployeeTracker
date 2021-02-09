@@ -5,6 +5,7 @@ using System.Net.Http;
 using System.Web.Http;
 using Microsoft.Owin.Security.OAuth;
 using Newtonsoft.Json.Serialization;
+using WebApiThrottle;
 
 namespace EmployeeTracker
 {
@@ -25,6 +26,16 @@ namespace EmployeeTracker
                 routeTemplate: "api/{controller}/{id}",
                 defaults: new { id = RouteParameter.Optional }
             );
+
+            config.MessageHandlers.Add(new ThrottlingHandler()
+            {
+                Policy = new ThrottlePolicy(perHour: 120, perDay: 1500, perWeek: 3000)
+                {
+                    IpThrottling = true
+                },
+                Repository = new CacheRepository()
+            });
         }
+
     }
 }
