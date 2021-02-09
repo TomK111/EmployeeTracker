@@ -5,6 +5,7 @@ using System.Net.Http;
 using System.Web.Http;
 using Microsoft.Owin.Security.OAuth;
 using Newtonsoft.Json.Serialization;
+using Swashbuckle.Application;
 using WebApiThrottle;
 
 namespace EmployeeTracker
@@ -20,6 +21,13 @@ namespace EmployeeTracker
 
             // Web API routes
             config.MapHttpAttributeRoutes();
+
+            config.Routes.MapHttpRoute(
+            name: "swagger_root",
+            routeTemplate: "",
+            defaults: null,
+            constraints: null,
+            handler: new RedirectHandler((message => message.RequestUri.ToString()), "swagger"));
 
             config.Routes.MapHttpRoute(
                 name: "DefaultApi",
