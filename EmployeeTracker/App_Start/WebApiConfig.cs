@@ -37,7 +37,7 @@ namespace EmployeeTracker
 
             config.MessageHandlers.Add(new ThrottlingHandler()
             {
-                Policy = new ThrottlePolicy(perHour: 120, perDay: 1500, perWeek: 3000)
+                Policy = new ThrottlePolicy(perSecond: 2, perMinute: 5, perHour: 120, perDay: 1500, perWeek: 3000)
                 {
                     IpThrottling = true
                 },
